@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+#gameCanvas {
+    background-color: #fff;
+}
+
+/* Media query para pantallas mayores a 600px */
+@media only screen and (min-width: 600px) {
+    #gameCanvas {
+        width: 600px;
+        height: 600px;
+    }
+}
